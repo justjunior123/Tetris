@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tetris</title>
+  <link href="css/stylesheet.css?v=1.1" rel="stylesheet" type="text/css">
+  <style>
+    body {
+      background: #202028;
+      color: #fff;
+      font-family: sans-serif;
+      font-size: 2em;
+      text-align: center;
+    }
+    canvas {
+      border: solid .2em #fff;
+      height: 90 vh;
+    }
+  </style>
+</head>
+<body>
+  <div class="instructions">
+    <h1>Instructions</h1>
+      <a class="ul-instructions">
+        Left and Right arrows will move the pieces.
+        Push the down arrow will move a piece down.
+        Holding it will make it fall faster.
+        Rotate left: D(key) / Rotate Right: F(key)
+      </a>
+  </div>
+  <div id="score"></div>
+  <canvas id="tetris" width="240" height="400"></canvas>
+  <script src="tetris.js"></script>
+
+</body>
+
+<footer class="footer">Written with Javascript, HTML, and CSS</footer>
+</html>

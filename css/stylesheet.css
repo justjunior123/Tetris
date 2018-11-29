@@ -1,0 +1,20 @@
+.instructions {
+  font-size: .7em;
+  width: 30%;
+}
+
+.ul-instructions{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  position: flex;
+  font-size: .7em;
+  list-style: none;
+}
+
+.footer{
+  padding-top: .9em;
+  text-align: center;
+  font-size: .5em;
+}
